@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sun.png" type="image/icon type" >
+    <title>Contact me</title>
+</head>
+
+<style>
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.4) ;
+  color: none;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: transparent;
+}
+textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.4) ;
+  color: none;
+  outline: 1px solid rgba(74, 74, 74, 0.4) ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: transparent;
+}
+label{
+  margin-bottom: 5px;
+  display:block;
+}
+.p1{
+  text-align: right;
+}
+
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <h2>Contact me:</h2>
+            <button class="btn1" onclick="darkMode()">
+                <input type="image" src="sun.png" name="submit" width="50" height="50" alt="darkmode"/>
+            </button> 
+            <button class="btn1" onclick="darkMode()">
+                <input type="image" src="moon.png" name="submit" width="50" height="50" alt="darkmode"/>
+            </button>
+    
+                
+            <div class="navigation"> 
+
+                <div class="navigation_content1" >         
+                 
+                       <li class="navigationlink"> <a href="index.html">Home</a></li>
+                       <li class="navigationlink"><a href="about_me.html">About Me</a></li>
+                       <li class="navigationlink"><a href="portfolio.html">Portfolio</a></li>
+                       <li class="navigationlink"><a href="contact_me.html">Contact Me</a></li> <br>
+                </div>
+    
+            </div>
+            
+            
+        </div>
+        </header>
+    </div>
+    <div class="container2">
+            
+            <div class="contact_me_field">
+                <div class="contact_me_left">
+                    <a>Send me a message:</a><br>
+                    <div class="input_information">
+
+                        <div class="input_field">                    
+                            <label><br>Name: </label>
+                            <input type="text" id="name" placeholder="Write your name here" required>
+                        </div>
+                        <div class="input_field">                    
+                            <label>Number: </label>
+                            <input type="text" id="phone" placeholder="Write your number here">
+                        </div>
+                        <div class="input_field">                    
+                            <label>Email: </label>
+                            <input type="email" id="email" placeholder="Write your email here" required>
+                        </div>
+                        <div class="input_field">                    
+                            <label>Subject: </label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <label>  Message: </label>
+                        <textarea rows="5" id="message" placeholder="Write your message here"></textarea>
+                
+                <button type="submit" class="btn_send" >SEND</button>
+                
+                </div>                              
+               
+
+            </div>  
+  
+
+            <div class="contact_me_right">
+                <a>Or contact me:</a><br>
+                      <li_contact_me><br><br><br>Signe Grosberga</li_contact_me><br><br>
+                      <label>Number: </label>
+                      <li_contact_me>+371 27612660</li_contact_me><br>
+                      <label>Email: </label>
+                      <li_contact_me>grosbergasigne@gmail.com</li_contact_me><br><br>
+                      
+
+                        <form action="https://www.linkedin.com/in/signe-grosberga-aa21a6211/">
+                            <button class="btn_link_social">
+                                <img type="image" src="linked.png" width="50" height="50"/>
+                              
+                            </button> 
+                        </form>
+                        <form action="https://github.com/grosbergasigne1998">
+                            <button class="btn_link_social">
+                                <img type="image" src="github.png" width="50" height="50"/>
+                               
+                            </button>
+                        </form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="animatedBackground"></div>
+    <div id="animatedBackground_cloud"></div>
+    
+    <script src="script_2.js"></script>
+</body>
+</html>
